@@ -1,0 +1,309 @@
+body {
+    background-color: rgb(235, 239, 242);
+  }
+
+  .logo {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  #div {
+    background: rgba(10, 88, 108, 255);
+    width: 5%;
+
+    display: inline-block;
+
+  }
+
+  .main {
+    display: flex;
+
+  }
+
+  .middle {
+    width: 29%;
+    margin-top: 1%;
+    margin-left: 2%;
+    height: 30%;
+    font-size: small;
+
+
+
+  }
+
+  .corner {
+    width: 50%;
+  }
+
+  /* Apply basic styling to the login div */
+  .login {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(235, 239, 242);
+    ;
+    /* You can adjust the background color as needed */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Style the profile image and text */
+  .profile {
+    width: 30px;
+    /* Adjust the width as needed */
+    height: 30px;
+    /* Adjust the height as needed */
+    margin-right: 10px;
+    /* Add some spacing between the image and text */
+    border-radius: 50%;
+    /* Make it round if it's a profile picture */
+  }
+
+  /* Style the text */
+  .login {
+    font-size: 12px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Apply font weight if desired */
+  }
+
+
+  .card {
+
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      
+
+
+   
+
+
+  }
+
+  #card {
+    text-align: justify;
+    padding: 5%;
+  }
+  .card-info{
+    display: flex;
+     
+  }
+
+  .profile {
+    border-radius: 50%;
+    height: 40px;
+
+  }
+  .card-info{
+    justify-content: space-between;
+    background-color:  rgb(235, 239, 242);
+    box-shadow: none;
+    margin-top: 10%;
+    width: 120%;
+    height: 30vh;
+    border: none;
+    
+    
+    
+  }
+ 
+
+
+
+  .arrow {
+    font-size: small;
+    color: grey;
+  }
+
+  .image {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10%;
+  }
+
+  .grey {
+    color: rgb(78, 77, 77);
+  }
+
+  button {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .mini-cards{
+    width: 30%;
+    height: 90%;  
+align-items: center;  
+justify-content: center;
+  }
+  .test-report{
+    justify-content: space-between;
+   
+    
+    
+    width: 113.5%;
+    height: 20vh;
+    margin-left: 6.5%;
+    
+  
+  }
+  .reports
+  {
+     
+    width: 30%;
+    border: none;
+    box-shadow: none;
+    
+  }
+  .icon-1{
+    padding-right: 10px;
+     padding-top:14px;
+     padding-left: 8px;
+     height: 60px;
+    color: rgb(54, 116, 223);
+     background-color: rgb(242, 255, 255);
+      
+     border-radius: 4px;
+     align-items: center;
+    
+  }
+  .icon-2{
+    padding-right: 10px;
+     padding-top:14px;
+     padding-left: 8px;
+     height: 60px;
+    color: rgb(232, 182, 74);
+     background-color: rgb(250, 249, 240);
+     
+     border-radius: 4px;
+     align-items: center;
+  }
+  .icon-3{
+    padding-right: 10px;
+     padding-top:14px;
+     padding-left: 8px;
+     height: 60px;
+    color: rgb(233, 85, 22);
+     background-color: rgb(246, 243, 241);
+      
+     border-radius: 4px;
+     align-items: center;
+  }
+  .details{
+     
+   
+    
+   
+   width: 113.5%;
+   height:30vh;
+   margin-left: 6.5%;
+
+  }
+  .input
+  {
+    border: 2px dashed rgb(34, 177, 34);
+    border-radius: 6px;
+    margin-top:1%;
+    width:95%
+
+  }
+  input::placeholder {
+    color: rgb(34, 177, 34);
+    text-align: center;
+  }
+.prescription{
+  display: flex;
+    justify-content: space-around;
+   
+   
+  
+}
+.pres{
+text-align: justify;
+padding-left: 15px;
+padding-top: 3px;
+}
+
+
+
+  /* Media Query for screens between 992px and 1200px */
+  @media screen and (max-width: 1200px) {
+    .main {
+      flex-direction: column;
+      
+    }
+
+    .middle {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .image {
+      margin-top: 5%;
+    }
+  }
+
+
+  /* Media Query for screens between 768px and 991px */
+  @media screen and (max-width: 991px) {
+    .main{
+      display:block;
+    }
+    #div {
+      display:none;
+      width: 10%;
+    }
+  .login{
+    display: none;
+  }
+  }
+
+  /* Media Query for screens less than 768px */
+  @media screen and (max-width: 767px) {
+    #div {
+       
+      width: 100%;
+    }
+   
+    .card-info{
+      display:block;
+      
+       
+      
+    }
+    .mini-cards
+    {
+      height: 200%;
+      width:130%;
+
+      
+    }
+    .test-report {
+       display: none;
+
+}
+
+
+.reports {
+  width: 100%; 
+}
+.details{
+  display: none;
+}
+     
+
+    .middle {
+      font-size: smaller;
+    }
+    
+  }
+  @media screen and (min-width: 991px) {
+    .navbar{
+      display: none;
+    }
+  }
